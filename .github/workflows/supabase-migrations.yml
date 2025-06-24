@@ -4,9 +4,7 @@ name: Deploy Supabase Migrations
 on:
   push:
     branches:
-      - main
-    paths:
-      - 'supabase/migrations/**' # Only run when a new migration file is added
+      - main # This will now run on EVERY push to main
 
 jobs:
   migrate-db:
