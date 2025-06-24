@@ -4,8 +4,8 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>LearnBridgeEdu Frontend</h1>
-      <p>Deployment pipeline test successful!</p>
+      <h1>LearnBridgeEdu - Deployment Successful!</h1>
+      <p>The CI/CD pipeline is now correctly configured.</p>
     </>
   )
 }
